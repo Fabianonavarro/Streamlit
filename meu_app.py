@@ -10,7 +10,7 @@ with st.container():
     st.write("Informações sobre os contratos fechados pela XPTO ao longo de maio")
 
     st.write("Quer Saber mais sobre o Fabiano ? [Clique aqui](https://www.linkedin.com/in/fabiano-de-navarro)")
-    st.write("--------------------------------------"
+    st.write("--------------------------------------")
 
 @st.cache_data
 def carregar_dados():
