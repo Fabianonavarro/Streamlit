@@ -4,11 +4,13 @@ import pandas as pd
 st.set_page_config(page_title="NAVINFO")
 
 with st.container():
-    st.subheader("Streamlit")
-    st.title("Dashboard de Contratos")
-    st.write("Informações sobre os contratos fechados pela Xyx ao longo de maio")
-    st.write("Quer Saber mais sobre o Fabiano ? [Clique aqui](https://www.linkedin.com/in/fabiano-de-navarro)")
+    st.subheader("NAvinfo + Streamlit")
+    st.title("Exemplo de Dashboard")
 
+    st.write("Informações sobre os contratos fechados pela XPTO ao longo de maio")
+
+    st.write("Quer Saber mais sobre o Fabiano ? [Clique aqui](https://www.linkedin.com/in/fabiano-de-navarro)")
+    st.write("--------------------------------------"
 
 @st.cache_data
 def carregar_dados():
