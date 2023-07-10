@@ -11,7 +11,7 @@ with st.container():
     
     st.write("Informações sobre os contratos fechados pela XPTO ao longo de maio")
 
-    st.write("Quer Saber mais sobre o Fabiano ? [Clique aqui](https://www.linkedin.com/in/fabiano-de-navarro)")
+   
     
 @st.cache_data
 def carregar_dados():
@@ -25,4 +25,8 @@ with st.container():
     dados = carregar_dados()
     dados = dados[-num_dias:]
     st.area_chart(dados, x="Data", y="Contratos")
+
+
+
+    st.write("Quer Saber mais sobre o Fabiano ? [Clique aqui](https://www.linkedin.com/in/fabiano-de-navarro)")
 
