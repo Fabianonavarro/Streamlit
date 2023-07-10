@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Streamlit")
+st.set_page_config(page_title="NAVINFO")
 
 with st.container():
     st.subheader("Streamlit")
     st.title("Dashboard de Contratos")
     st.write("Informações sobre os contratos fechados pela Xyx ao longo de maio")
-#    st.write("Quer aprender Python? [Clique aqui](https://www.hashtagtreinamentos.com/curso-python)")
+    st.write("Quer Saber mais sobre o Fabiano ? [Clique aqui](https://www.linkedin.com/in/fabiano-de-navarro)")
 
 
 @st.cache_data
