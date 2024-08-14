@@ -42,6 +42,7 @@ bash
 Copiar código
 streamlit run analise_contratoxpto.py
 Acesse o Aplicativo
+ou execute o arquivo execute.bat
 
 Abra um navegador e vá para http://localhost:8501 para visualizar o dashboard.
 
